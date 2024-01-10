@@ -1,0 +1,272 @@
+
+
+/* Box- main */
+
+
+.box_main{
+    width: 101%;
+    height: 900px;
+    background-image: radial-gradient(closest-side, rgb(20, 31, 120) 60%, rgba(2, 1, 70, 0.928)  );
+    background-size: cover;
+    margin-top: -16px;
+    margin-left: -10px;
+
+}
+
+.barra_de_cima{
+    background-color: rgb(0, 102, 255);
+    height: 7%;
+    width: 96%;
+}
+img{
+    margin-top: -15px;
+}
+.gambiarra{
+    height: 7%;
+    width: 4.4%;
+    margin-left: 95.5%;
+    margin-top: -63px;
+    background-color: rgb(0, 102, 255);
+}
+
+
+a#logout{
+    color: white;
+    font-size: 20px;
+    margin-top: 6px;
+    margin-left: -4px;
+}
+
+
+
+
+
+
+
+
+
+.conteudo{
+    width: 99%;
+    height: 90%;
+    margin-left: 10px;
+}
+
+p#recomendados{
+    color: white;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+
+}
+
+
+.cubo1{
+    transition: 1s ;
+    width: 20%;
+    height: 450px;
+    background-image: url('https://agoraes.com.br/images/noticias/288/87a7360f0b340adc29c0bcd7c6993b87.jpeg');
+    background-size: cover;
+    
+    padding-left: 4rem;
+
+}
+.cubo1:hover{
+    transition:  1s;
+    cursor: pointer;
+    width: 22%;
+    height: 470px;
+}
+
+img#miranha{
+    transition:  1s;
+    margin-left: -65px;
+    margin-top: 10px;
+}
+
+
+img#miranha:hover{
+    transition:  1s;
+    margin-left: -65px;
+    margin-top: 10px;
+    width: 400px;
+    height: 450px;
+
+}
+
+
+.cubo2{
+    transition:  1s;
+    width: 20%;
+    height: 450px;
+    background-image: url('https://i.pinimg.com/originals/b5/e6/20/b5e6203a8c0a4e52f95eb338eea27652.jpg');
+    background-size: cover;
+    padding-left: 4rem;
+
+}
+.cubo2:hover{
+    transition:  1s;
+    cursor: pointer;
+    width: 22%;
+    height: 470px;
+}
+
+img#divertidamente{
+    transition:  1s;
+    margin-left: -65px;
+    margin-top: 10px;
+}
+
+img#divertidamente:hover{
+    transition:  1s;
+    cursor: pointer;
+    width: 400px;
+    height: 450px;
+}
+
+
+.cubo3{
+    transition: 1s;
+    background-image: url('https://cinepop.com.br/wp-content/uploads/2023/05/imagem_2023-05-03_140718851.jpg.webp');
+    background-size:  cover;
+    width: 20%;
+    height: 450px;
+    background-color: white;
+    padding-left: 4rem;
+
+}
+
+.cubo3:hover{
+    transition:  1s;
+    cursor: pointer;
+    width: 22%;
+    height: 470px;
+}
+
+img#elementos{
+    transition:  1s;
+    margin-left: -65px;
+    margin-top: 10px;
+}
+
+img#elementos:hover{
+    transition:  1s;
+    cursor: pointer;
+    width: 400px;
+    height: 450px;
+}
+
+
+section#tiras{
+    margin-top: 3rem;
+    margin-left: 10%;
+    height: 25%;
+    width: 80%;
+    background-color: white;
+}
+
+.tira1{
+    background-image: url('https://eivfina4wt8.exactdn.com/wp-content/uploads/2023/11/12112433/divertidamente-2-capa.jpg') ;
+    background-size: cover ;
+    width: 25%;
+    background-color: blue;
+    transition: 1s;
+    box-shadow: inset 0px 0px 6px 4px;
+    
+}
+.tira2{
+    transition: 1s;
+    width: 25%;
+    background-image: url('https://miro.medium.com/v2/resize:fit:998/1*MmXNVlBrMY4AVsr61zFqPg.png') ;
+    background-size: cover ;
+    box-shadow: inset 0px 0px 6px 4px;
+}
+.tira3{
+    transition: 1s;
+    width: 25%;
+    background-image: url('https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5F1B4EEFB7E7B52760F3C4B89544E5E6F3321F4B8B5BA1B6D72A62550DAE2428/scale?width=1200&aspectRatio=1.78&format=jpeg') ;
+    background-size: cover ;
+    box-shadow: inset 0px 0px 6px 4px;
+}
+.tira4{
+    transition: 1s;
+    width: 25%;
+    background-image: url('https://bk.ibxk.com.br/2017/02/13/13131806911000.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 6px 4px;
+
+}
+
+.tira1:hover{
+    cursor: pointer;
+    transition:  1s;
+    width: 30%;
+}
+.tira2:hover{
+    cursor: pointer;
+    transition:  1s;
+    width: 30%
+}
+.tira3:hover{
+    cursor: pointer;
+    transition:  1s;
+    width: 30%
+}
+.tira4:hover{
+    cursor: pointer;
+    transition:  1s;
+    width: 30%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+
+    text-align: center;
+}
+
+a{
+    margin-top: 14px;
+    display: inline-block;
+    padding: 1rem;
+    text-align: center;
+    color: grey;
+    margin-bottom: -12px;
+}
+
+p{
+    margin-left: 28px;
+    text-align: center;
+    font-size: 16px;
+    padding: 1px;
+    margin-right: 10px;
+    color: grey;
+}

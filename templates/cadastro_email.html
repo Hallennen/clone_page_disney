@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMULARIO</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/cadastro_email.css') }}">
+    </head>
+    <body>
+        <div class="barra">
+
+        </div>
+            <div class="centro">
+                <div class="base">
+                    <h1>CADASTRO</h1>
+                    <form action="{{ url_for('cadastro') }}"   method="POST">
+                        <label >NOME:</label><br> 
+                        <input  required type="text" placeholder="  Name complete" name="name" values="valor"><br>
+
+                        <label >Data de Nascimento:</label><br>
+                        <input required type="number"  name="IDADE" values="valor"><br>
+
+                        <label >CIDADE:</label><br>
+                        <input required type="text"  placeholder="  City" name="CIDADE" values="valor"><br>
+
+                        <label >RUA:</label><br>
+                        <input  required type="text" placeholder="  Adress jão bobo" name="RUA" values="valor"><br>
+
+                        <label >CPF:</label><br>
+                        <input  required placeholder="  000.000.000-00" name="CPF" values="valor"><br>
+
+                        <label >TELEFONE:</label><br>
+                        <input required  type="tel" placeholder="   11 X1234-4567" name="TELEFONE" values="valor"><br>
+                        
+                        
+                        <button type="reset">Limpar</button>
+                        <button type="submit">Cadastrar</button>
+
+
+                    </form>
+                </div>
+            </div>
+    </body>
+</html>

