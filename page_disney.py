@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> fdbaa55 (IMPLEMENTAÇÃO INSERÇÃO INCREMENTAL E VALIDA SENHA 15/01)
 from flask import Flask , render_template , request
 from conexao_bd import conecta_no_banco
 
@@ -74,28 +70,7 @@ def cadastro():
 
 
     return teste()
-    # return ('<H1> TESTE OK </H1>')
 
 page.run(host='localhost',port=5000 , debug=True)
 
 
-
-
-
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-# class cadastro_de_user():
-#     def cadastro_email(self):
-
-#         return render_template('cadastro_email.html')
-
-#     def cadastro_no_banco(self):
-
-#         return render_template('disney.html')
->>>>>>> fdbaa55 (IMPLEMENTAÇÃO INSERÇÃO INCREMENTAL E VALIDA SENHA 15/01)
